@@ -1,0 +1,180 @@
+h1, strong, p {
+  font-family: "Comfortaa", cursive;
+}
+
+.navbar-brand {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
+
+.card-header {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
+
+.card-body h5 {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
+
+.card-body {
+  font-family: "Comfortaa", cursive;
+}
+
+.parallax-window {
+  display: flex;
+  min-height: 400px;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(44, 29, 29, 0.37);
+}
+
+.text {
+  text-align: center;
+  color: white;
+  margin: 0 40px;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+}
+
+.nav-pills > li > a.active {
+  background-color: tomato !important;
+  color: #ffffff !important;
+}
+
+.nav-pills > li > a {
+  color: tomato !important;
+  font-family: "Comfortaa", cursive;
+}
+
+.nav-link-color {
+  color: #ffffff;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.title {
+  font-family: "Comfortaa", cursive;
+  text-align: center;
+}
+
+.accordion {
+  align-items: center;
+  margin: 0 auto;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+  overflow-anchor: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(180deg);
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-button.collapsed {
+  border-bottom-width: 0;
+}
+
+#carouselCaptions .carousel-caption {
+  color: black;
+  text-align: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  font-family: "Comfortaa", cursive;
+}
+
+.box {
+  width: 100%;
+  height: 24em;
+  overflow: auto;
+  background-color: #fff7e4;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+  color: black;
+  scrollbar-base-color: #FFC107;
+  font-family: "Comfortaa", cursive;
+  padding: 10px;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+.rodape {
+  background-color: #ffcc41;
+  padding: 30px;
+}
+
+.rodape h5 {
+  font-family: "Comfortaa", cursive;
+  font-weight: 600;
+}
+
+.link-github {
+  color: black;
+}
+
+.link-insta {
+  color: #fd3599;
+}
+
+.rodape a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.rodape p {
+  font-weight: bolder;
+}
+
+.navlink {
+  list-style-type: none;
+  text-align: center;
+  color: black;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  align-self: center;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */
