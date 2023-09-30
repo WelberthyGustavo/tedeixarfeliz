@@ -5,11 +5,11 @@
 
 ## Description
 
-Welcome to the world of adorable cats and beautiful web design! 🐾 This HTML & CSS template is dedicated to all the cat lovers out there. It features cute cat images, parallax scrolling, and more.
+Welcome to the world of adorable cats! 🐾 This website is dedicated to all cat lovers and to help people with depression, anxiety, and people who are not well emotionally.
 
 ## Preview
 
-![Cat Template Preview](imgs/bird08.png)
+![Cat Template Preview](/ScreenshotTeDeixarFeliz.png)
 
 
 ## Website
